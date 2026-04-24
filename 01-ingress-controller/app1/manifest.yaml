@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: app1
-        image: joindevops/app1:1.0.0
+        image: esrasd/app1:1.0.0
 ---
 # Service must be NodePort -- old ALB ingress controller uses target-type: instance
 # ALB registers EC2 nodes, traffic comes in on NodePort, then forwards to pod
@@ -56,7 +56,7 @@ metadata:
     alb.ingress.kubernetes.io/target-type: instance
 spec:
   rules:
-  - host: "app1.daws88s.online"
+  - host: "app1.tsmvr.fun"
     http:
       paths:
       - path: /

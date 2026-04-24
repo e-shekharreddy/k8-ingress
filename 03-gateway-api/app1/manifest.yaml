@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: app1
-        image: joindevops/app1:1.0.0
+        image: esrasd/app1:1.0.0
         ports:
         - containerPort: 80
 ---
@@ -53,7 +53,7 @@ spec:
   - name: my-gateway
     sectionName: https
   hostnames:
-  - "app1.daws88s.online"
+  - "app1.tsmvr.fun"
   rules:
   - matches:
     - path:
