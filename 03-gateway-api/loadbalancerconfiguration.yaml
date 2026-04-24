@@ -9,4 +9,4 @@ spec:
   listeners:
     https:
       certificates:
-      - certificateARN: <ACM_CERT_ARN>
+      - certificateARN: arn:aws:acm:us-east-1:764694154057:certificate/f0c607ab-0842-499b-b461-19e3ed3208d5
